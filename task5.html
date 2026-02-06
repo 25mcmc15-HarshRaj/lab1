@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+
+<body>
+
+<h2>My To-Do List</h2>
+
+<div class="todo-container">
+
+    <!-- INPUT SECTION -->
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <input type="date" id="dateInput">
+    <button onclick="addTask()">Add Task</button>
+
+    <!-- FILTER BUTTONS -->
+    <div class="filters">
+        <button onclick="showAll()">All</button>
+        <button onclick="showCompleted()">Completed</button>
+        <button onclick="showPending()">Pending</button>
+    </div>
+
+    <!-- TASK LIST -->
+    <ul id="taskList"></ul>
+
+</div>
+
+<script src="script5.js"></script>
+
+</body>
+</html>
