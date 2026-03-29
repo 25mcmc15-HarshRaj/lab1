@@ -1,0 +1,60 @@
+body{
+  font-family: Arial;
+  background: #f4f6f9;
+}
+
+/* Form */
+.form-container{
+  text-align: center;
+  margin: 20px;
+}
+
+.input{
+  padding: 8px;
+  margin: 5px;
+}
+
+.btn-save{
+  background: #2ecc71;
+  color: white;
+}
+
+/* List */
+.list-container{
+  width: 80%;
+  margin: auto;
+}
+
+.card{
+  background: white;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.user-text{
+  font-weight: bold;
+}
+
+.search{
+  padding: 8px;
+  margin: 10px 0;
+}
+
+/* Buttons */
+button{
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.btn-edit{ background: #3498db; color: white; }
+.btn-delete{ background: #e74c3c; color: white; }
+.btn-update{ background: green; color: white; }
+.btn-cancel{ background: gray; color: white; }
+
+/* Pagination */
+.pagination{
+  text-align: center;
+}
